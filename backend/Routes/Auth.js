@@ -1,6 +1,8 @@
 const express = require('express')
 const User = require('../models/User')
 const Order = require('../models/Orders')
+const adminController = require('../contollers/adminContoller');
+
 const router = express.Router()
 const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs')
@@ -181,17 +183,8 @@ router.post('/orderData', async (req, res) => {
     }
 })
 
-router.post('/myOrderData', async (req, res) => {
-    try {
-        console.log(req.body.email)
-        let eId = await Order.findOne({ 'email': req.body.email })
-        //console.log(eId)
-        res.json({orderData:eId})
-    } catch (error) {
-        res.send("Error",error.message)
-    }
-    
+router.post('/createAdmin', adminController.createAdmin);
+  
 
-});
 
 module.exports = router

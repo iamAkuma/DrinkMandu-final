@@ -43,13 +43,13 @@ export default function Home() {
               </div>
             </div>
             <div className="carousel-item active" >
-              <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://cheers.com.np/uploads/banners/085371670808023255176239.jpg" className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?pastry" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://cheers.com.np/uploads/banners/4399799185307625465550.jpg" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://source.unsplash.com/random/900x700/?barbeque" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://cheers.com.np/uploads/banners/7130878260150909072610.jpg" className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
