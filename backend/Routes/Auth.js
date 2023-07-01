@@ -183,7 +183,7 @@ router.post('/orderData', async (req, res) => {
     }
 })
 
-router.post('/createAdmin', adminController.createAdmin);
+
   
 
 

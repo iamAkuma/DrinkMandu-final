@@ -20,12 +20,12 @@ app.use((req, res, next) => {
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('SERVER RUNNING!')
 })
 
 app.use('/api/auth', require('./Routes/Auth'));
 
 app.listen(port, () => {
-  console.log(`Example app listening on http://localhost:${port}`)
+  console.log(`App listening on PORT:${port}`)
 })
 
