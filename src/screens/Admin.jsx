@@ -46,6 +46,8 @@ const Admin = () => {
       <Container>
         <Row>
           <h1 className='text-center mt- text-white p-2'>Admin Panel</h1>
+          <hr />
+          <br />
           <Col md={2}>
             <div className='align-items-center'>
               <ButtonGroup vertical style={{ minHeight: '400px' }}>

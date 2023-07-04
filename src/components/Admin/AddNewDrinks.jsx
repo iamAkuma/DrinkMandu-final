@@ -4,6 +4,7 @@ const AddNewDrinks = () => {
   return (
     <div>
       <h2>Add New Drinks</h2>
+      <hr />
     </div>
   )
 }
